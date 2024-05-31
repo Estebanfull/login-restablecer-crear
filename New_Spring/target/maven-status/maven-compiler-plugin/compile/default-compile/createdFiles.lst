@@ -1,0 +1,6 @@
+com\example\model\UsuarioModel.class
+com\example\Config\CorsConfig.class
+com\example\controller\UsuarioController.class
+com\example\NewSpringApplication.class
+com\example\service\UsuarioService.class
+com\example\repository\UsuarioRepository.class
