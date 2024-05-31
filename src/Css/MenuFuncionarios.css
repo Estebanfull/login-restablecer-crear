@@ -1,0 +1,147 @@
+/* Agrega un estilo al contenedor de los botones */
+.botones-container {
+  background-color: #2e2e2e; /* Fondo gris */
+  padding: 10px 0; /* Añade relleno al contenedor de botones */
+  width: 100%; /* Ancho completo */
+  text-align: center; /* Alinea el contenido al centro */
+}
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: hsla(0, 0%, 98%, 0.929);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.menu {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  background-color: #797979;
+}
+
+.menu-toggle {
+  background-color: #004B83;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 5px; /* Añadido para bordes redondeados */
+}
+
+.logo {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.boton-volver {
+  background-color: #004B83;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 5px; /* Añadido para bordes redondeados */
+}
+
+.submenu {
+  display: none;
+  position: relative;
+  top: 100%;
+  left: 50px;
+  width: 120px; /* Ajusta el ancho del submenú según tus necesidades */
+  padding: 4px;
+  background-color: #f9f9f9; /* Cambiado el color de fondo */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+
+.menu-list li button,
+.submenu li a {
+  background-color: #004B83;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 20px; /* Añade espacio entre botones */
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-list li button:hover,
+.submenu li a:hover {
+  background-color: #003a66;
+}
+
+.submenu li {
+  margin-bottom: 25px; /* Añade espacio entre elementos de lista */
+}
+
+.submenu button {
+  background-color: #004a8300;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-bottom: 100px; /* Añade espacio entre botones */
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submenu button:hover {
+  background-color: #1030e4;
+}
+
+.submenu img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.imagen-texto {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+.imagen-texto img {
+  width: 70vh; /* Tamaño deseado para la imagen */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente */
+  justify-content: center; /* Centra verticalmente */
+}
+
+.pie-pagina {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #797979;
+  padding: 10px 0; 
+  text-align: center;
+}
+
+.pie-pagina img {
+  width: 20px; 
+  height: auto;
+  margin-left: 5px; 
+  margin-right: 5px;
+}

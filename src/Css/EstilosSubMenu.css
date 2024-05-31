@@ -1,0 +1,164 @@
+/* EstilosSubMenu.css */
+
+.crear-usuario-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: hsla(0, 0%, 98%, 0.929);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+/* Estilos para el contenedor del logo y botones */
+.crear-usuario-logo-container {
+  display: flex;
+  align-items: center;
+  background-color: #797979;
+}
+
+/* Estilos para el botón de volver */
+.crear-usuario-boton-volver {
+  background-color: #004B83;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 5px; /* Añadido para bordes redondeados */
+}
+
+/* Estilos para el logo */
+.crear-usuario-logo {
+  width: 100px;
+  margin: 0 auto;
+}
+
+/* Estilos para el contenedor del logo y botones */
+.crear-usuario-logo-container {
+  position: fixed; /* Fija la posición */
+  top: 0; /* Coloca la barra en la parte superior */
+  left: 0; /* Alinea a la izquierda */
+  width: 100%; /* Ancho completo */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Espacio entre elementos */
+  background-color: #797979;
+  padding: 10px; /* Espaciado interior */
+}
+
+/* Estilos para el botón de volver */
+.crear-usuario-boton-volver {
+  background-color: #004B83;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 5px; /* Añadido para bordes redondeados */
+}
+
+/* Estilos para el logo */
+.crear-usuario-logo {
+  width: 100px;
+}
+
+/* Estilos para el contenedor central */
+.crear-usuario-contenedor-central {
+  width: 100%; /* Ancho completo */
+  max-width: 400px; /* Ancho máximo */
+  
+}
+
+/* Estilos para el contenido del formulario */
+.crear-usuario-contenido {
+  padding: 20px; /* Espaciado interior */
+  margin-top: 60px; /* Ajuste para el espacio de la barra superior */
+}
+
+/* Estilos para el encabezado */
+.crear-usuario-encabezado {
+  text-align: center;
+}
+
+/* Estilos para el título del menú */
+.crear-usuario-titulo-menu {
+  margin: 0;
+}
+
+/* Estilos para el contenedor central */
+.crear-usuario-contenedor-central {
+  margin-top: 20px;
+}
+
+/* Estilos para el formulario */
+.crear-usuario-formulario {
+  display: flex;
+  flex-direction: column; /* Ajusta el formulario para que sea vertical */
+}
+
+/* Estilos para las etiquetas */
+.crear-usuario-label {
+  margin-bottom: 10px; /* Añade espacio entre las etiquetas */
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+/* Estilos para los campos de entrada */
+.crear-usuario-input {
+  width: 100%; /* Ancho completo */
+  padding: 8px; /* Añade relleno a los campos de entrada */
+  margin-bottom: 15px; /* Añade espacio entre los campos de entrada */
+  border-radius: 5px; /* Añade bordes redondeados */
+  border: 1px solid #ccc; /* Añade un borde */
+}
+
+/* Estilos para el botón de enviar */
+.crear-usuario-submit {
+  background-color: #004B83;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 5px; /* Añadido para bordes redondeados */
+  width: 100%; /* Ancho completo */
+}
+
+/* Estilos para el botón de enviar al pasar el mouse */
+.crear-usuario-submit:hover {
+  background-color: #003a66;
+}
+
+
+
+/* Estilos para el pie de página */
+.crear-usuario-pie-pagina {
+  position: fixed;
+  bottom: 0;
+  left: 0; /* Alinea el pie de página a la izquierda */
+  width: 100%;
+  background-color: #797979;
+  text-align: center;
+  padding: 10px 0; /* Ajusta el relleno del pie de página según sea necesario */
+  z-index: 999; /* Asegura que el pie de página esté por encima de otros elementos */
+}
+
+
+/* Estilos para los elementos dentro del pie de página */
+.crear-usuario-pie-pagina img {
+  width: 20px; 
+  height: auto;
+  margin-left: 5px; 
+  margin-right: 5px;
+}
+
+
+/* Agrega estos estilos en tu archivo CSS correspondiente */
+.mensaje-exito {
+  background-color: #dff0d8;
+  border: 1px solid #d0e9c6;
+  color: #3c763d;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 4px;
+}

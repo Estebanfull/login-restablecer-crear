@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Utiliza la ruta correcta de la imagen y ajusta los valores según sea necesario */
+    background-image: url('../Imagenes/Img_portada.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+  }
+  
+  
+  .logo {
+    width: 200px;
+    max-width: 100%;
+  }
+  
+  .boton {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .boton:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para la página de inicio */
+  .inicio {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inicio h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .inicio p {
+    color: #666;
+    line-height: 1.5;
+  }
+  
